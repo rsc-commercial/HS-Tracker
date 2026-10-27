@@ -4,9 +4,9 @@
     "type": "NON RH",
     "customer": "BISCAYNE HOSPITALITY",
     "pic": "TRAN",
-    "npd_status": "OB",
-    "npi_status": "FC",
-    "outcome": "Won",
+    "npd_status": "CANCELLED",
+    "npi_status": "REMOVED",
+    "outcome": "Lost",
     "proto_val": 11993.0,
     "npi_val": 3000000.0
   },
@@ -151,7 +151,7 @@
     "npi_status": "OB",
     "outcome": "Won",
     "proto_val": 1017.32,
-    "npi_val": 37522.0
+    "npi_val": 37552.0
   },
   {
     "name": "W-HOTEL-LAS-VEGAS",
@@ -169,9 +169,9 @@
     "type": "NON RH",
     "customer": "BISCAYNE HOSPITALITY",
     "pic": "TRAN",
-    "npd_status": "OB",
+    "npd_status": "CANCELLED",
     "npi_status": "No NPI yet",
-    "outcome": "In Progress",
+    "outcome": "Lost",
     "proto_val": 4270.120000000001,
     "npi_val": 0.0
   },
@@ -180,9 +180,9 @@
     "type": "NON RH",
     "customer": "BISCAYNE HOSPITALITY",
     "pic": "TRAN",
-    "npd_status": "OB",
+    "npd_status": "CANCELLED",
     "npi_status": "No NPI yet",
-    "outcome": "In Progress",
+    "outcome": "Lost",
     "proto_val": 17279.0,
     "npi_val": 0.0
   },

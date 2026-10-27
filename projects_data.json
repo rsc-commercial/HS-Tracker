@@ -26,18 +26,18 @@
     "customer": "RH",
     "type": "RH",
     "stage": "NPI",
-    "sku": 27,
+    "sku": 31,
     "pic": "BIEN",
     "sw": "2027/W16 - 2027/W26",
-    "drawing": "Not Started",
-    "veneer": "Not Started",
+    "drawing": "In Progress",
+    "veneer": "In Progress",
     "metal": "Not Started",
     "market": "BS",
-    "total_val": 2936224.52,
+    "total_val": 2935981.52,
     "monthly": {
       "2027/M04": 1000000.0,
       "2027/M05": 1000000.0,
-      "2027/M06": 936224.52
+      "2027/M06": 935981.52
     }
   },
   {
@@ -368,7 +368,7 @@
     }
   },
   {
-    "name": "2026-RH-SNAKE RIVER LODGE BLUEFLAG",
+    "name": "2026-RH-SNAKE RIVER LODGE BLUEFLAG-ADDITIONAL",
     "status": "OB",
     "customer": "RH",
     "type": "RH",
@@ -973,8 +973,8 @@
     "sku": 21,
     "pic": "BIEN",
     "sw": "2026/W46 - 2026/W51",
-    "drawing": "In Progress",
-    "veneer": "In Progress",
+    "drawing": "Pending Approval",
+    "veneer": "Pending Approval",
     "metal": "In Progress",
     "market": "PT",
     "total_val": 32000.0,
@@ -1218,6 +1218,24 @@
     }
   },
   {
+    "name": "2026-KD-KNOX DALLAS- 1198-1509",
+    "status": "NOR",
+    "customer": "KD",
+    "type": "NON RH",
+    "stage": "NPI",
+    "sku": 1,
+    "pic": "PHONG",
+    "sw": "2027/W14 - 2027/W14",
+    "drawing": "In Progress",
+    "veneer": "In Progress",
+    "metal": "TBC",
+    "market": "US",
+    "total_val": 7894.0,
+    "monthly": {
+      "2027/M04": 7894.0
+    }
+  },
+  {
     "name": "2026-PLUS CORPORATION-SOHO HOUSE TOKYO",
     "status": "SHIPPED",
     "customer": "PLUS CORPORATION",
@@ -1391,13 +1409,13 @@
     "sku": 8,
     "pic": "PHONG",
     "sw": "2027/W13 - 2027/W14",
-    "drawing": "In Progress",
-    "veneer": "In Progress",
-    "metal": "In Progress",
+    "drawing": "Pending Approval",
+    "veneer": "Pending Approval",
+    "metal": "Approved",
     "market": "US",
-    "total_val": 37522.0,
+    "total_val": 37552.0,
     "monthly": {
-      "2027/M04": 37522.0
+      "2027/M04": 37552.0
     }
   },
   {
@@ -2036,8 +2054,8 @@
     "sku": 35,
     "pic": "DUNG",
     "sw": "2027/W01 - 2027/W04",
-    "drawing": "In Progress",
-    "veneer": "In Progress",
+    "drawing": "Pending Approval",
+    "veneer": "Pending Approval",
     "metal": "In Progress",
     "market": "US",
     "total_val": 83963.21,
@@ -2085,7 +2103,7 @@
   },
   {
     "name": "2026-BISCAYNE-AGV MODEL ROOM",
-    "status": "OB",
+    "status": "CANCELLED",
     "customer": "BISCAYNE",
     "type": "NON RH",
     "stage": "NPD",
@@ -2121,7 +2139,7 @@
   },
   {
     "name": "2026-BISCAYNE-AGSR - ARIZONA GRAND SUITES - MODEL ROOM",
-    "status": "OB",
+    "status": "CANCELLED",
     "customer": "BISCAYNE",
     "type": "NON RH",
     "stage": "NPD",
@@ -2139,7 +2157,7 @@
   },
   {
     "name": "2026-BISCAYNE-AGSR - ARIZONA GRAND SUITES - EXTRA",
-    "status": "OB",
+    "status": "CANCELLED",
     "customer": "BISCAYNE",
     "type": "NON RH",
     "stage": "NPD",
@@ -2157,7 +2175,7 @@
   },
   {
     "name": "2026-BISCAYNE-AGSR - ARIZONA GRAND SUITES - MODEL ROOM",
-    "status": "FC",
+    "status": "REMOVED",
     "customer": "BISCAYNE",
     "type": "NON RH",
     "stage": "NPI",
@@ -2269,7 +2287,7 @@
   },
   {
     "name": "2026-MV-CLEVELAND CLINIC-PHASE 2",
-    "status": "FC",
+    "status": "NOR",
     "customer": "MV",
     "type": "NON RH",
     "stage": "NPI",
@@ -2328,16 +2346,16 @@
     "customer": "RH",
     "type": "RH",
     "stage": "NPI",
-    "sku": 50,
+    "sku": 51,
     "pic": "PHONG",
     "sw": "2027/W24 - 2027/W26",
     "drawing": "In Progress",
     "veneer": "In Progress",
     "metal": "Not Started",
     "market": "US",
-    "total_val": 358530.94,
+    "total_val": 313857.0,
     "monthly": {
-      "2027/M06": 358530.94
+      "2027/M06": 313857.0
     }
   },
   {
@@ -2348,14 +2366,14 @@
     "stage": "NPI",
     "sku": 7,
     "pic": "DUNG",
-    "sw": "2027/W23 - 2027/W24",
-    "drawing": "Not Started",
-    "veneer": "Not Started",
-    "metal": "Not Started",
+    "sw": "2026/W02 - 2026/W02",
+    "drawing": "In Progress",
+    "veneer": "In Progress",
+    "metal": "In Progress",
     "market": "US",
     "total_val": 38935.43,
     "monthly": {
-      "2027/M06": 38935.43
+      "2027/M01": 38935.43
     }
   },
   {
@@ -2401,7 +2419,7 @@
     "sku": 3,
     "pic": "BIEN",
     "sw": "TBC - TBC",
-    "drawing": "In Progress",
+    "drawing": "Pending Approval",
     "veneer": "In Progress",
     "metal": "TBC",
     "market": "US",
@@ -2434,16 +2452,34 @@
     "customer": "RH",
     "type": "RH",
     "stage": "NPI",
-    "sku": 26,
+    "sku": 16,
     "pic": "TBC",
-    "sw": "2027/W25 - 2027/W26",
-    "drawing": "TBC",
-    "veneer": "TBC",
+    "sw": "2026/W05 - 2026/W05",
+    "drawing": "In Progress",
+    "veneer": "In Progress",
     "metal": "TBC",
     "market": "US",
     "total_val": 19342.43,
     "monthly": {
-      "2027/M06": 19342.43
+      "2027/M01": 19342.43
+    }
+  },
+  {
+    "name": "2026-BISCAYNE-PZT",
+    "status": "FC",
+    "customer": "BISCAYNE",
+    "type": "NON RH",
+    "stage": "NPD",
+    "sku": 2,
+    "pic": "TRAN",
+    "sw": "2026/W03 - 2026/W03",
+    "drawing": "Not Started",
+    "veneer": "Not Started",
+    "metal": "TBC",
+    "market": "US",
+    "total_val": 3781530.06,
+    "monthly": {
+      "2027/M01": 2799.06
     }
   }
 ]
