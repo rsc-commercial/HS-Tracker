@@ -936,14 +936,14 @@
     "stage": "NPI",
     "sku": 4,
     "pic": "DUNG",
-    "sw": "TBC - TBC",
+    "sw": "2027/W14 - 2027/W15",
     "drawing": "Not Started",
     "veneer": "Not Started",
     "metal": "Not Started",
     "market": "US",
     "total_val": 179782.0,
     "monthly": {
-      "2027/M03": 179782.0
+      "2027/M04": 179782.0
     }
   },
   {
@@ -1120,9 +1120,9 @@
     "veneer": "In Progress",
     "metal": "In Progress",
     "market": "US",
-    "total_val": 361028.77,
+    "total_val": 343070.0,
     "monthly": {
-      "2027/M04": 361028.77
+      "2027/M04": 343070.0
     }
   },
   {
@@ -2334,10 +2334,9 @@
     "veneer": "Approved",
     "metal": "TBC",
     "market": "US",
-    "total_val": 42563.3,
+    "total_val": 730.3,
     "monthly": {
-      "2026/M11": 730.3,
-      "2027/M04": 41833.0
+      "2026/M11": 730.3
     }
   },
   {
@@ -2479,7 +2478,10 @@
     "market": "US",
     "total_val": 3781530.06,
     "monthly": {
-      "2027/M01": 2799.06
+      "2027/M01": 2799.06,
+      "2027/M07": 1259577.0,
+      "2027/M08": 1259577.0,
+      "2027/M09": 1259577.0
     }
   }
 ]

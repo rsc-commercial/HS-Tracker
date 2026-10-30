@@ -107,7 +107,7 @@
     "npi_status": "FC",
     "outcome": "Won",
     "proto_val": 6938.58,
-    "npi_val": 361028.77
+    "npi_val": 343070.0
   },
   {
     "name": "PROJECT 550 POCKET DOORS",
@@ -115,10 +115,10 @@
     "customer": "SPECTRUM KITCHENS",
     "pic": "PHONG",
     "npd_status": "FC",
-    "npi_status": "FC",
-    "outcome": "Won",
+    "npi_status": "No NPI yet",
+    "outcome": "In Progress",
     "proto_val": 730.3,
-    "npi_val": 41833.0
+    "npi_val": 0.0
   },
   {
     "name": "RH TRUMP SUITES NYC",
