@@ -1314,8 +1314,8 @@
 
       const categories = [
         { key: 'SHIPPED', label: 'SHIPPED (Fulfilled)', cls: 'row-shipped', fillCls: 'fill-shipped' },
-        { key: 'OB', label: 'ORDER BOOK (OB)', cls: 'row-ob', fillCls: 'fill-ob' },
         { key: 'NOR', label: 'NEW ORDER REQUEST (NOR)', cls: 'row-nor', fillCls: 'fill-nor' },
+        { key: 'OB', label: 'ORDER BOOK (OB)', cls: 'row-ob', fillCls: 'fill-ob' },
         { key: 'FC', label: 'FORECAST (FC)', cls: 'row-fc', fillCls: 'fill-fc' }
       ];
 
@@ -1381,15 +1381,16 @@
     function statusRank(status) {
       const st = (status || '').toUpperCase().trim();
       if (st === 'SHIPPED' || st === 'SHIP') return 1;
-      if (st === 'OB') return 2;
-      if (st === 'NOR') return 3;
+      if (st === 'NOR') return 2;
+      if (st === 'OB') return 3;
       if (st === 'FC') return 4;
       if (st === 'ON HOLD') return 5;
       if (st === 'PIPELINE') return 6;
-      if (st === 'DROPPED') return 7;
-      if (st === 'CANCELLED') return 8;
-      if (st === 'REMOVED') return 9;
-      if (st === 'REJECTED') return 10;
+      // Terminal statuses sink to the bottom of the default order
+      if (st === 'REMOVED') return 7;
+      if (st === 'REJECTED') return 8;
+      if (st === 'DROPPED') return 9;
+      if (st === 'CANCELLED') return 10;
       return 99;
     }
 
@@ -1426,7 +1427,20 @@
       const factor = dir === 'desc' ? -1 : 1;
 
       return [...list].sort((a, b) => {
-        if (key === 'default' || !key || key === 'name') {
+        if (key === 'default' || !key) {
+          // Default order is status-led: Shipped -> NOR -> OB -> FC -> terminals
+          const statusCmp = statusRank(a.status) - statusRank(b.status);
+          if (statusCmp !== 0) return statusCmp;
+
+          const nameA = (a.name || '').toLowerCase().trim();
+          const nameB = (b.name || '').toLowerCase().trim();
+          const nameCmp = nameA.localeCompare(nameB, undefined, { numeric: true, sensitivity: 'base' });
+          if (nameCmp !== 0) return nameCmp;
+
+          return stageRank(a.stage) - stageRank(b.stage);
+        }
+
+        if (key === 'name') {
           const nameA = (a.name || '').toLowerCase().trim();
           const nameB = (b.name || '').toLowerCase().trim();
           const nameCmp = nameA.localeCompare(nameB, undefined, { numeric: true, sensitivity: 'base' });
@@ -1435,9 +1449,7 @@
           const stageCmp = stageRank(a.stage) - stageRank(b.stage);
           if (stageCmp !== 0) return stageCmp;
 
-          const statusCmp = statusRank(a.status) - statusRank(b.status);
-          if (statusCmp !== 0) return statusCmp;
-          return 0;
+          return statusRank(a.status) - statusRank(b.status);
         }
 
         if (key === 'total_val' || key === 'sku') {

@@ -223,8 +223,8 @@ const rawProjects = [{"name":"2026-RH-GRAND HYATT BAHA MAR","status":"SHIPPED","
 
       const categories = [
         { key: 'SHIPPED', label: 'SHIPPED (Fulfilled)', cls: 'row-shipped', fillCls: 'fill-shipped' },
-        { key: 'OB', label: 'ORDER BOOK (OB)', cls: 'row-ob', fillCls: 'fill-ob' },
         { key: 'NOR', label: 'NEW ORDER REQUEST (NOR)', cls: 'row-nor', fillCls: 'fill-nor' },
+        { key: 'OB', label: 'ORDER BOOK (OB)', cls: 'row-ob', fillCls: 'fill-ob' },
         { key: 'FC', label: 'FORECAST (FC)', cls: 'row-fc', fillCls: 'fill-fc' }
       ];
 
@@ -283,15 +283,16 @@ const rawProjects = [{"name":"2026-RH-GRAND HYATT BAHA MAR","status":"SHIPPED","
     function statusRank(status) {
       const st = (status || '').toUpperCase().trim();
       if (st === 'SHIPPED' || st === 'SHIP') return 1;
-      if (st === 'OB') return 2;
-      if (st === 'NOR') return 3;
+      if (st === 'NOR') return 2;
+      if (st === 'OB') return 3;
       if (st === 'FC') return 4;
       if (st === 'ON HOLD') return 5;
       if (st === 'PIPELINE') return 6;
-      if (st === 'DROPPED') return 7;
-      if (st === 'CANCELLED') return 8;
-      if (st === 'REMOVED') return 9;
-      if (st === 'REJECTED') return 10;
+      // Terminal statuses sink to the bottom of the default order
+      if (st === 'REMOVED') return 7;
+      if (st === 'REJECTED') return 8;
+      if (st === 'DROPPED') return 9;
+      if (st === 'CANCELLED') return 10;
       return 99;
     }
 
@@ -307,7 +308,7 @@ const rawProjects = [{"name":"2026-RH-GRAND HYATT BAHA MAR","status":"SHIPPED","
         const stageCmp = stageRank(a.stage) - stageRank(b.stage);
         if (stageCmp !== 0) return stageCmp;
 
-        // 3. Sort by status (Ship -> OB -> NOR -> FC)
+        // 3. Sort by status (Ship -> NOR -> OB -> FC -> terminals)
         const statusCmp = statusRank(a.status) - statusRank(b.status);
         if (statusCmp !== 0) return statusCmp;
 
