@@ -508,10 +508,10 @@
     "veneer": "Approved",
     "metal": "Approved",
     "market": "US",
-    "total_val": 172960.83,
+    "total_val": 169944.84,
     "monthly": {
       "2026/M08": 89785.84,
-      "2026/M09": 83174.99
+      "2026/M09": 80159.0
     }
   },
   {
@@ -815,6 +815,24 @@
     }
   },
   {
+    "name": "2026-L&S-ELYSEE HOTEL",
+    "status": "SHIPPED",
+    "customer": "L&S",
+    "type": "NON RH",
+    "stage": "NPD",
+    "sku": 8,
+    "pic": "THAO",
+    "sw": "2026/W32 - 2026/W37",
+    "drawing": "Approved",
+    "veneer": "Approved",
+    "metal": "Approved",
+    "market": "US",
+    "total_val": 3015.99,
+    "monthly": {
+      "2026/M09": 3015.99
+    }
+  },
+  {
     "name": "2026-BROOKFIELD-PARK HYATT VANCOUVER",
     "status": "SHIPPED",
     "customer": "BROOKFIELD",
@@ -903,9 +921,26 @@
     "veneer": "Pending Approval",
     "metal": "Pending Approval",
     "market": "US",
-    "total_val": 1506614.04,
+    "total_val": 6614.04,
     "monthly": {
-      "2026/M09": 6614.04,
+      "2026/M09": 6614.04
+    }
+  },
+  {
+    "name": "2026-L&S-HARD ROCK SAN JUAN",
+    "status": "ON HOLD",
+    "customer": "L&S",
+    "type": "NON RH",
+    "stage": "NPI",
+    "sku": 5,
+    "pic": "THAO",
+    "sw": "TBC - TBC",
+    "drawing": "In Progress",
+    "veneer": "In Progress",
+    "metal": "TBC",
+    "market": "US",
+    "total_val": 1500000.0,
+    "monthly": {
       "2027/M09": 750000.0,
       "2027/M10": 750000.0
     }
@@ -1138,10 +1173,26 @@
     "veneer": "Approved",
     "metal": "In Progress",
     "market": "US",
-    "total_val": 722063.67,
+    "total_val": 15040.19,
     "monthly": {
       "2026/M09": 15040.19
     }
+  },
+  {
+    "name": "2026-FLEETWOOD -AUBERGE HOUSTON MR",
+    "status": "CANCELLED",
+    "customer": "FLEETWOOD",
+    "type": "NON RH",
+    "stage": "NPI",
+    "sku": 15,
+    "pic": "DUNG",
+    "sw": "TBC - TBC",
+    "drawing": "Not Started",
+    "veneer": "Not Started",
+    "metal": "Not Started",
+    "market": "US",
+    "total_val": 707023.48,
+    "monthly": {}
   },
   {
     "name": "2026-RH-AWH TOPNOTCH",
@@ -1156,9 +1207,26 @@
     "veneer": "Pending Approval",
     "metal": "Pending Approval",
     "market": "US",
-    "total_val": 563394.1,
+    "total_val": 31219.1,
     "monthly": {
-      "2026/M12": 31219.1,
+      "2026/M12": 31219.1
+    }
+  },
+  {
+    "name": "2026-RH-AWH TOPNOTCH",
+    "status": "ON HOLD",
+    "customer": "RH",
+    "type": "RH",
+    "stage": "NPI",
+    "sku": 17,
+    "pic": "DUY",
+    "sw": "2026/W11 - 2026/W13",
+    "drawing": "In Progress",
+    "veneer": "Pending Approval",
+    "metal": "Pending Approval",
+    "market": "US",
+    "total_val": 532175.0,
+    "monthly": {
       "2027/M05": 532175.0
     }
   },
@@ -1488,9 +1556,26 @@
     "veneer": "Not Started",
     "metal": "Not Started",
     "market": "US",
-    "total_val": 1112433.68,
+    "total_val": 12433.68,
     "monthly": {
-      "2026/M08": 12433.68,
+      "2026/M08": 12433.68
+    }
+  },
+  {
+    "name": "2026-RH-MONTAUK YACHT CLUB",
+    "status": "CANCELLED",
+    "customer": "RH",
+    "type": "RH",
+    "stage": "NPI",
+    "sku": 5,
+    "pic": "BIEN",
+    "sw": "TBC - TBC",
+    "drawing": "Not Started",
+    "veneer": "Not Started",
+    "metal": "Not Started",
+    "market": "US",
+    "total_val": 1100000.0,
+    "monthly": {
       "2027/M06": 1100000.0
     }
   },
@@ -2094,9 +2179,26 @@
     "veneer": "TBC",
     "metal": "TBC",
     "market": "EU",
-    "total_val": 1488143.52,
+    "total_val": 13804.52,
     "monthly": {
-      "2026/M12": 13804.52,
+      "2026/M12": 13804.52
+    }
+  },
+  {
+    "name": "2026-RH-FOUR SEASON DUBROVNIK",
+    "status": "ON HOLD",
+    "customer": "RH",
+    "type": "RH",
+    "stage": "NPI",
+    "sku": 32,
+    "pic": "DUONG",
+    "sw": "TBC - TBC",
+    "drawing": "In Progress",
+    "veneer": "TBC",
+    "metal": "TBC",
+    "market": "EU",
+    "total_val": 1474339.0,
+    "monthly": {
       "2027/M11": 737169.5,
       "2027/M12": 737169.5
     }
@@ -2261,10 +2363,26 @@
     "veneer": "Not Started",
     "metal": "In Progress",
     "market": "US",
-    "total_val": 42732.35,
+    "total_val": 4632.56,
     "monthly": {
       "2026/M12": 4632.56
     }
+  },
+  {
+    "name": "2026-RH-OPS-0069737 TRIBECA CONDOS - VANITIES",
+    "status": "ON HOLD",
+    "customer": "RH",
+    "type": "RH",
+    "stage": "NPI",
+    "sku": 4,
+    "pic": "DUY",
+    "sw": "TBC - TBC",
+    "drawing": "In Progress",
+    "veneer": "Not Started",
+    "metal": "In Progress",
+    "market": "US",
+    "total_val": 38099.79,
+    "monthly": {}
   },
   {
     "name": "2026-MV-CLEVELAND CLINIC",
@@ -2472,13 +2590,30 @@
     "sku": 2,
     "pic": "TRAN",
     "sw": "2026/W03 - 2026/W03",
+    "drawing": "In Progress",
+    "veneer": "Not Started",
+    "metal": "TBC",
+    "market": "US",
+    "total_val": 2799.06,
+    "monthly": {
+      "2027/M01": 2799.06
+    }
+  },
+  {
+    "name": "2026-BISCAYNE-PZT",
+    "status": "FC",
+    "customer": "BISCAYNE",
+    "type": "NON RH",
+    "stage": "NPI",
+    "sku": 2,
+    "pic": "TRAN",
+    "sw": "2027/W27 - 2027/W38",
     "drawing": "Not Started",
     "veneer": "Not Started",
     "metal": "TBC",
     "market": "US",
-    "total_val": 3781530.06,
+    "total_val": 3778731.0,
     "monthly": {
-      "2027/M01": 2799.06,
       "2027/M07": 1259577.0,
       "2027/M08": 1259577.0,
       "2027/M09": 1259577.0

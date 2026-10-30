@@ -51,10 +51,13 @@ def clean(v):
     return str(v).strip() if pd.notna(v) else 'TBC'
 
 
-# 3. Aggregate at (PROJECT NAME, STATUS) grain
+# 3. Aggregate at (PROJECT NAME, STATUS, STAGE) grain.
+#    STAGE must be in the key: a project can appear as both an NPD prototype row
+#    and an NPI production row at the same status, and those are distinct
+#    milestones with their own SW dates, drawing status and break value.
 records = {}
 for _, r in df.iterrows():
-    key = (str(r['PROJECT NAME']).strip(), str(r['STATUS']).strip())
+    key = (str(r['PROJECT NAME']).strip(), str(r['STATUS']).strip(), clean(r['STAGE']))
     if key not in records:
         records[key] = {
             'name': key[0],
