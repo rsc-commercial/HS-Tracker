@@ -22,16 +22,16 @@
   },
   {
     "name": "2026-RH-GRAND HYATT BAHA MAR-PHASE 2",
-    "status": "FC",
+    "status": "OB",
     "customer": "RH",
     "type": "RH",
     "stage": "NPI",
     "sku": 31,
     "pic": "BIEN",
-    "sw": "2027/W16 - 2027/W26",
+    "sw": "2027/W14 - 2027/W26",
     "drawing": "In Progress",
-    "veneer": "In Progress",
-    "metal": "Not Started",
+    "veneer": "Approved",
+    "metal": "Approved",
     "market": "BS",
     "total_val": 2935981.52,
     "monthly": {
@@ -182,26 +182,9 @@
     "veneer": "Approved",
     "metal": "Approved",
     "market": "PT",
-    "total_val": 74720.0,
+    "total_val": 202175.0,
     "monthly": {
-      "2026/M09": 74720.0
-    }
-  },
-  {
-    "name": "2026-RH-NAMA LISBON",
-    "status": "OB",
-    "customer": "RH",
-    "type": "RH",
-    "stage": "NPI",
-    "sku": 11,
-    "pic": "DUY",
-    "sw": "2026/W44 - 2026/W44",
-    "drawing": "Approved",
-    "veneer": "Approved",
-    "metal": "Approved",
-    "market": "PT",
-    "total_val": 127455.0,
-    "monthly": {
+      "2026/M09": 74720.0,
       "2026/M10": 127455.0
     }
   },
@@ -214,7 +197,7 @@
     "sku": 1,
     "pic": "DUY",
     "sw": "2027/W04 - 2027/W04",
-    "drawing": "In Progress",
+    "drawing": "Pending Approval",
     "veneer": "Approved",
     "metal": "TBC",
     "market": "PT",
@@ -1008,9 +991,9 @@
     "sku": 21,
     "pic": "BIEN",
     "sw": "2026/W46 - 2026/W51",
-    "drawing": "Pending Approval",
+    "drawing": "Approved",
     "veneer": "Pending Approval",
-    "metal": "In Progress",
+    "metal": "Approved",
     "market": "PT",
     "total_val": 32000.0,
     "monthly": {
@@ -1384,14 +1367,14 @@
     "stage": "NPD",
     "sku": 2,
     "pic": "DUY",
-    "sw": "2026/W44 - 2026/W44",
+    "sw": "2026/W45 - 2026/W45",
     "drawing": "Approved",
     "veneer": "Approved",
     "metal": "TBC",
     "market": "US",
     "total_val": 5542.32,
     "monthly": {
-      "2026/M10": 5542.32
+      "2026/M11": 5542.32
     }
   },
   {
@@ -1476,14 +1459,14 @@
     "stage": "NPI",
     "sku": 8,
     "pic": "PHONG",
-    "sw": "2027/W13 - 2027/W14",
+    "sw": "2027/W05 - 2027/W05",
     "drawing": "Pending Approval",
     "veneer": "Pending Approval",
     "metal": "Approved",
     "market": "US",
     "total_val": 37552.0,
     "monthly": {
-      "2027/M04": 37552.0
+      "2027/M01": 37552.0
     }
   },
   {
@@ -1587,7 +1570,7 @@
     "stage": "NPI",
     "sku": 5,
     "pic": "DUNG",
-    "sw": "2026/W45 - 2026/W45",
+    "sw": "2026/W46 - 2026/W46",
     "drawing": "Approved",
     "veneer": "Approved",
     "metal": "Approved",
@@ -1693,14 +1676,14 @@
     "stage": "NPD",
     "sku": 3,
     "pic": "BIEN",
-    "sw": "2026/W43 - 2026/W43",
+    "sw": "2026/W49 - 2026/W49",
     "drawing": "Approved",
     "veneer": "Approved",
     "metal": "Approved",
     "market": "US",
     "total_val": 2843.6,
     "monthly": {
-      "2026/M10": 2843.6
+      "2026/M12": 2843.6
     }
   },
   {
@@ -1817,7 +1800,7 @@
     "pic": "DUY",
     "sw": "2027/W05 - 2027/W05",
     "drawing": "Pending Approval",
-    "veneer": "Pending Approval",
+    "veneer": "Approved",
     "metal": "TBC",
     "market": "EU",
     "total_val": 8455.52,
@@ -1845,13 +1828,13 @@
   },
   {
     "name": "2026-RH-DANCING BEAR",
-    "status": "OB",
+    "status": "SHIPPED",
     "customer": "RH",
     "type": "RH",
     "stage": "NPD",
     "sku": 17,
     "pic": "DUY",
-    "sw": "2026/W43 - 2026/W43",
+    "sw": "2026/W43 - 2026/W44",
     "drawing": "Approved",
     "veneer": "Approved",
     "metal": "Approved",
@@ -2001,25 +1984,25 @@
     "market": "UK",
     "total_val": 2230.98,
     "monthly": {
-      "2026/M10": 2230.98
+      "2026/M11": 2230.98
     }
   },
   {
     "name": "2026-SH-OAKLEY COURT MINI BAR BRIEF",
-    "status": "FC",
+    "status": "OB",
     "customer": "SH",
     "type": "NON RH",
     "stage": "NPI",
     "sku": 4,
     "pic": "PHONG",
     "sw": "2027/W15 - 2027/W16",
-    "drawing": "In Progress",
+    "drawing": "Pending Approval",
     "veneer": "In Progress",
     "metal": "TBC",
     "market": "UK",
-    "total_val": 210727.22,
+    "total_val": 214728.0,
     "monthly": {
-      "2027/M04": 210727.22
+      "2027/M04": 214728.0
     }
   },
   {
@@ -2143,9 +2126,10 @@
     "veneer": "Pending Approval",
     "metal": "In Progress",
     "market": "US",
-    "total_val": 83963.21,
+    "total_val": 79689.09,
     "monthly": {
-      "2027/M01": 83963.21
+      "2027/M02": 40416.11,
+      "2027/M03": 39272.98
     }
   },
   {
@@ -2447,7 +2431,7 @@
     "stage": "NPD",
     "sku": 1,
     "pic": "PHONG",
-    "sw": "2026/W48 - 2026/W48",
+    "sw": "2026/W51 - 2026/W51",
     "drawing": "In Progress",
     "veneer": "Approved",
     "metal": "TBC",
@@ -2477,12 +2461,12 @@
   },
   {
     "name": "2026-RH-LAKE OCONEE TENTS",
-    "status": "FC",
+    "status": "OB",
     "customer": "RH",
     "type": "RH",
     "stage": "NPI",
     "sku": 7,
-    "pic": "DUNG",
+    "pic": "DUY",
     "sw": "2026/W02 - 2026/W02",
     "drawing": "In Progress",
     "veneer": "In Progress",
@@ -2529,7 +2513,7 @@
   },
   {
     "name": "2026-FAIRFIELD-WASHINGTON-DUKE",
-    "status": "FC",
+    "status": "PIPELINE",
     "customer": "FAIRFIELD",
     "type": "NON RH",
     "stage": "NPD",
@@ -2547,7 +2531,7 @@
   },
   {
     "name": "2026-MONDO-LEXINGTON HOTEL",
-    "status": "FC",
+    "status": "PIPELINE",
     "customer": "MONDO",
     "type": "NON RH",
     "stage": "NPD",
@@ -2573,7 +2557,7 @@
     "pic": "TBC",
     "sw": "2026/W05 - 2026/W05",
     "drawing": "In Progress",
-    "veneer": "In Progress",
+    "veneer": "Approved",
     "metal": "TBC",
     "market": "US",
     "total_val": 19342.43,
