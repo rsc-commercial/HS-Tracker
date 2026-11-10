@@ -63,7 +63,7 @@
     "npi_status": "FC",
     "outcome": "Won",
     "proto_val": 32000.0,
-    "npi_val": 596794.0
+    "npi_val": 637679.9400000003
   },
   {
     "name": "KHOBAR HILTON CANOPY HOTEL",
@@ -137,10 +137,10 @@
     "customer": "RESTORATION HARDWARE_HS",
     "pic": "BIEN",
     "npd_status": "SHIPPED",
-    "npi_status": "OB",
+    "npi_status": "SHIPPED, OB",
     "outcome": "Won",
     "proto_val": 1046.75,
-    "npi_val": 311473.76000000007
+    "npi_val": 311474.19
   },
   {
     "name": "SUNRIVER RESORT",
@@ -235,7 +235,7 @@
     "type": "RH",
     "customer": "RESTORATION HARDWARE_HS",
     "pic": "DUY",
-    "npd_status": "OB",
+    "npd_status": "SHIPPED",
     "npi_status": "No NPI yet",
     "outcome": "In Progress",
     "proto_val": 5542.32,

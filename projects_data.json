@@ -27,17 +27,17 @@
     "type": "RH",
     "stage": "NPI",
     "sku": 31,
-    "pic": "BIEN",
+    "pic": "PHONG",
     "sw": "2027/W14 - 2027/W26",
     "drawing": "In Progress",
     "veneer": "Approved",
     "metal": "Approved",
     "market": "BS",
-    "total_val": 2935981.52,
+    "total_val": 2905862.0,
     "monthly": {
-      "2027/M04": 1000000.0,
-      "2027/M05": 1000000.0,
-      "2027/M06": 935981.52
+      "2027/M04": 1210445.0,
+      "2027/M05": 850770.0,
+      "2027/M06": 844647.0
     }
   },
   {
@@ -315,6 +315,24 @@
   },
   {
     "name": "2025-RH-ROSEWOOD CALISTOGA",
+    "status": "SHIPPED",
+    "customer": "RH",
+    "type": "RH",
+    "stage": "NPI",
+    "sku": 38,
+    "pic": "BIEN",
+    "sw": "2026/W45 - 2026/W50",
+    "drawing": "Approved",
+    "veneer": "Approved",
+    "metal": "Approved",
+    "market": "US",
+    "total_val": 74280.19,
+    "monthly": {
+      "2026/M11": 74280.19
+    }
+  },
+  {
+    "name": "2025-RH-ROSEWOOD CALISTOGA",
     "status": "OB",
     "customer": "RH",
     "type": "RH",
@@ -326,10 +344,10 @@
     "veneer": "Approved",
     "metal": "Approved",
     "market": "US",
-    "total_val": 311473.76,
+    "total_val": 237194.0,
     "monthly": {
-      "2026/M11": 239023.0,
-      "2026/M12": 72450.76
+      "2026/M11": 165247.0,
+      "2026/M12": 71947.0
     }
   },
   {
@@ -394,14 +412,14 @@
     "stage": "NPI",
     "sku": 14,
     "pic": "DUY",
-    "sw": "2027/W15 - 2027/W17",
+    "sw": "2027/W19 - 2027/W19",
     "drawing": "Pending Approval",
     "veneer": "Pending Approval",
     "metal": "Pending Approval",
     "market": "US",
     "total_val": 228581.0,
     "monthly": {
-      "2027/M04": 228581.0
+      "2027/M05": 228581.0
     }
   },
   {
@@ -643,10 +661,10 @@
     "veneer": "Approved",
     "metal": "Approved",
     "market": "US",
-    "total_val": 208884.94,
+    "total_val": 206205.37,
     "monthly": {
       "2026/M11": 148976.37,
-      "2026/M12": 59908.57
+      "2026/M12": 57229.0
     }
   },
   {
@@ -1008,14 +1026,14 @@
     "stage": "NPI",
     "sku": 122,
     "pic": "BIEN",
-    "sw": "TBC - TBC",
+    "sw": "2027/W23 - 2027/W26",
     "drawing": "Not Started",
     "veneer": "Not Started",
     "metal": "TBC",
     "market": "PT",
-    "total_val": 596794.0,
+    "total_val": 637679.94,
     "monthly": {
-      "2027/M06": 596794.0
+      "2027/M06": 637679.94
     }
   },
   {
@@ -1132,7 +1150,7 @@
     "type": "NON RH",
     "stage": "NPI",
     "sku": 30,
-    "pic": "DUNG",
+    "pic": "TBC",
     "sw": "TBC - TBC",
     "drawing": "In Progress",
     "veneer": "In Progress",
@@ -1229,6 +1247,24 @@
     "total_val": 64112.41,
     "monthly": {
       "2026/M11": 64112.41
+    }
+  },
+  {
+    "name": "2026-FLEETWOOD -SPANISH BAY CLUB",
+    "status": "FC",
+    "customer": "FLEETWOOD",
+    "type": "NON RH",
+    "stage": "NPI",
+    "sku": 1,
+    "pic": "THAO",
+    "sw": "2026/W52 - 2026/W52",
+    "drawing": "Pending Approval",
+    "veneer": "Approved",
+    "metal": "Approved",
+    "market": "US",
+    "total_val": 2243.0,
+    "monthly": {
+      "2026/M12": 2243.0
     }
   },
   {
@@ -1361,7 +1397,7 @@
   },
   {
     "name": "2026-RH-GRAND HYATT DENVER",
-    "status": "OB",
+    "status": "SHIPPED",
     "customer": "RH",
     "type": "RH",
     "stage": "NPD",
@@ -1497,14 +1533,14 @@
     "stage": "NPI",
     "sku": 9,
     "pic": "BIEN",
-    "sw": "2027/W10 - 2027/W13",
+    "sw": "2027/W27 - 2027/W28",
     "drawing": "Not Started",
     "veneer": "Not Started",
     "metal": "Not Started",
     "market": "SA",
     "total_val": 897832.0,
     "monthly": {
-      "2027/M04": 897832.0
+      "2027/M07": 897832.0
     }
   },
   {
@@ -1728,15 +1764,13 @@
     "stage": "NPI",
     "sku": 2,
     "pic": "DUY",
-    "sw": "2027/W05 - 2027/W05",
+    "sw": "TBC - TBC",
     "drawing": "Pending Approval",
     "veneer": "Pending Approval",
     "metal": "TBC",
     "market": "US",
     "total_val": 4003.5,
-    "monthly": {
-      "2027/M01": 4003.5
-    }
+    "monthly": {}
   },
   {
     "name": "2026-RH-MUNISH",
@@ -1798,15 +1832,13 @@
     "stage": "NPI",
     "sku": 2,
     "pic": "DUY",
-    "sw": "2027/W05 - 2027/W05",
+    "sw": "TBC - TBC",
     "drawing": "Pending Approval",
     "veneer": "Approved",
     "metal": "TBC",
     "market": "EU",
     "total_val": 8455.52,
-    "monthly": {
-      "2027/M01": 8455.52
-    }
+    "monthly": {}
   },
   {
     "name": "2026-BWG -MUSE POINT APARTMENT",
@@ -1993,12 +2025,12 @@
     "customer": "SH",
     "type": "NON RH",
     "stage": "NPI",
-    "sku": 4,
+    "sku": 6,
     "pic": "PHONG",
     "sw": "2027/W15 - 2027/W16",
     "drawing": "Pending Approval",
-    "veneer": "In Progress",
-    "metal": "TBC",
+    "veneer": "Pending Approval",
+    "metal": "Pending Approval",
     "market": "UK",
     "total_val": 214728.0,
     "monthly": {
@@ -2013,7 +2045,7 @@
     "stage": "NPI",
     "sku": 7,
     "pic": "TRAN",
-    "sw": "2026/W49 - 2026/W49",
+    "sw": "2026/W52 - 2026/W52",
     "drawing": "Approved",
     "veneer": "Approved",
     "metal": "TBC",
@@ -2083,7 +2115,7 @@
     "customer": "RH",
     "type": "RH",
     "stage": "NPI",
-    "sku": 0,
+    "sku": 2,
     "pic": "DUY",
     "sw": "TBC - TBC",
     "drawing": "Not Started",
@@ -2126,10 +2158,10 @@
     "veneer": "Pending Approval",
     "metal": "In Progress",
     "market": "US",
-    "total_val": 79689.09,
+    "total_val": 79806.0,
     "monthly": {
       "2027/M02": 40416.11,
-      "2027/M03": 39272.98
+      "2027/M03": 39389.89
     }
   },
   {
@@ -2139,15 +2171,15 @@
     "type": "NON RH",
     "stage": "NPI",
     "sku": 1,
-    "pic": "TRAN",
-    "sw": "2026/W49 - 2026/W49",
+    "pic": "THAO",
+    "sw": "2026/W48 - 2026/W48",
     "drawing": "Approved",
     "veneer": "Approved",
     "metal": "Approved",
     "market": "US",
     "total_val": 3202.0,
     "monthly": {
-      "2026/M12": 3202.0
+      "2026/M11": 3202.0
     }
   },
   {
@@ -2374,35 +2406,18 @@
     "customer": "MV",
     "type": "NON RH",
     "stage": "NPI",
-    "sku": 27,
+    "sku": 37,
     "pic": "DUNG",
-    "sw": "2027/W05 - 2027/W05",
+    "sw": "2027/W11 - 2027/W13",
     "drawing": "In Progress",
     "veneer": "In Progress",
     "metal": "In Progress",
     "market": "US",
-    "total_val": 70241.84,
+    "total_val": 239794.0,
     "monthly": {
-      "2027/M01": 27000.0,
-      "2027/M03": 43241.84
-    }
-  },
-  {
-    "name": "2026-MV-CLEVELAND CLINIC-PHASE 2",
-    "status": "NOR",
-    "customer": "MV",
-    "type": "NON RH",
-    "stage": "NPI",
-    "sku": 29,
-    "pic": "DUNG",
-    "sw": "2027/W15 - 2027/W22",
-    "drawing": "In Progress",
-    "veneer": "In Progress",
-    "metal": "In Progress",
-    "market": "US",
-    "total_val": 169552.37,
-    "monthly": {
-      "2027/M05": 169552.37
+      "2027/M03": 79931.33,
+      "2027/M04": 79931.33,
+      "2027/M05": 79931.33
     }
   },
   {
@@ -2430,15 +2445,15 @@
     "type": "NON RH",
     "stage": "NPD",
     "sku": 1,
-    "pic": "PHONG",
-    "sw": "2026/W51 - 2026/W51",
+    "pic": "TBC",
+    "sw": "2026/W52 - 2026/W52",
     "drawing": "In Progress",
     "veneer": "Approved",
     "metal": "TBC",
     "market": "US",
     "total_val": 730.3,
     "monthly": {
-      "2026/M11": 730.3
+      "2026/M12": 730.3
     }
   },
   {
@@ -2448,7 +2463,7 @@
     "type": "RH",
     "stage": "NPI",
     "sku": 51,
-    "pic": "PHONG",
+    "pic": "DUY",
     "sw": "2027/W24 - 2027/W26",
     "drawing": "In Progress",
     "veneer": "In Progress",
@@ -2549,12 +2564,12 @@
   },
   {
     "name": "2026-RH-CABOT HILLSIDE HOMES",
-    "status": "FC",
+    "status": "NOR",
     "customer": "RH",
     "type": "RH",
     "stage": "NPI",
     "sku": 16,
-    "pic": "TBC",
+    "pic": "DUY",
     "sw": "2026/W05 - 2026/W05",
     "drawing": "In Progress",
     "veneer": "Approved",
@@ -2567,7 +2582,7 @@
   },
   {
     "name": "2026-BISCAYNE-PZT",
-    "status": "FC",
+    "status": "OB",
     "customer": "BISCAYNE",
     "type": "NON RH",
     "stage": "NPD",
