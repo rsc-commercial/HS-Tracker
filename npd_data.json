@@ -140,7 +140,7 @@
     "npi_status": "SHIPPED, OB",
     "outcome": "Won",
     "proto_val": 1046.75,
-    "npi_val": 311474.19
+    "npi_val": 311474.0
   },
   {
     "name": "SUNRIVER RESORT",
@@ -151,7 +151,7 @@
     "npi_status": "OB",
     "outcome": "Won",
     "proto_val": 1017.32,
-    "npi_val": 37552.0
+    "npi_val": 38079.0
   },
   {
     "name": "W-HOTEL-LAS-VEGAS",

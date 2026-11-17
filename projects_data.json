@@ -284,15 +284,15 @@
     "stage": "NPI",
     "sku": 24,
     "pic": "TBC",
-    "sw": "2027/W19 - 2027/W26",
+    "sw": "2027/W27 - 2027/W34",
     "drawing": "Pending Approval",
     "veneer": "Approved",
     "metal": "Approved",
     "market": "US",
     "total_val": 1074318.51,
     "monthly": {
-      "2027/M05": 537160.0,
-      "2027/M06": 537158.51
+      "2027/M07": 537160.0,
+      "2027/M08": 537158.51
     }
   },
   {
@@ -326,9 +326,9 @@
     "veneer": "Approved",
     "metal": "Approved",
     "market": "US",
-    "total_val": 74280.19,
+    "total_val": 154331.0,
     "monthly": {
-      "2026/M11": 74280.19
+      "2026/M11": 154331.0
     }
   },
   {
@@ -344,9 +344,9 @@
     "veneer": "Approved",
     "metal": "Approved",
     "market": "US",
-    "total_val": 237194.0,
+    "total_val": 157143.0,
     "monthly": {
-      "2026/M11": 165247.0,
+      "2026/M11": 85196.0,
       "2026/M12": 71947.0
     }
   },
@@ -412,14 +412,14 @@
     "stage": "NPI",
     "sku": 14,
     "pic": "DUY",
-    "sw": "2027/W19 - 2027/W19",
+    "sw": "2027/W24 - 2027/W24",
     "drawing": "Pending Approval",
     "veneer": "Pending Approval",
     "metal": "Pending Approval",
     "market": "US",
     "total_val": 228581.0,
     "monthly": {
-      "2027/M05": 228581.0
+      "2027/M06": 228581.0
     }
   },
   {
@@ -904,9 +904,9 @@
     "market": "US",
     "total_val": 3466407.0,
     "monthly": {
-      "2027/M05": 1155469.0,
-      "2027/M06": 1155469.0,
-      "2027/M07": 1155469.0
+      "2027/M10": 1155469.0,
+      "2027/M11": 1155469.0,
+      "2027/M12": 1155469.0
     }
   },
   {
@@ -979,7 +979,7 @@
     "market": "US",
     "total_val": 179782.0,
     "monthly": {
-      "2027/M04": 179782.0
+      "2027/M05": 179782.0
     }
   },
   {
@@ -1062,15 +1062,15 @@
     "stage": "NPI",
     "sku": 0,
     "pic": "THAO",
-    "sw": "TBC - TBC",
+    "sw": "2027/W32 - 2027/W37",
     "drawing": "Not Started",
     "veneer": "TBC",
     "metal": "TBC",
     "market": "AR",
     "total_val": 2263628.0,
     "monthly": {
-      "2027/M07": 1131814.0,
-      "2027/M08": 1131814.0
+      "2027/M08": 1131814.0,
+      "2027/M09": 1131814.0
     }
   },
   {
@@ -1257,14 +1257,14 @@
     "stage": "NPI",
     "sku": 1,
     "pic": "THAO",
-    "sw": "2026/W52 - 2026/W52",
+    "sw": "2027/W03 - 2027/W03",
     "drawing": "Pending Approval",
     "veneer": "Approved",
     "metal": "Approved",
     "market": "US",
     "total_val": 2243.0,
     "monthly": {
-      "2026/M12": 2243.0
+      "2027/M01": 2243.0
     }
   },
   {
@@ -1500,9 +1500,9 @@
     "veneer": "Approved",
     "metal": "Approved",
     "market": "US",
-    "total_val": 37552.0,
+    "total_val": 38079.0,
     "monthly": {
-      "2027/M01": 37552.0
+      "2027/M01": 38079.0
     }
   },
   {
@@ -1606,14 +1606,14 @@
     "stage": "NPI",
     "sku": 5,
     "pic": "DUNG",
-    "sw": "2026/W46 - 2026/W46",
+    "sw": "2026/W49 - 2026/W49",
     "drawing": "Approved",
     "veneer": "Approved",
     "metal": "Approved",
     "market": "US",
     "total_val": 22890.48,
     "monthly": {
-      "2026/M11": 22890.48
+      "2026/M12": 22890.48
     }
   },
   {
@@ -1884,14 +1884,14 @@
     "stage": "NPI",
     "sku": 18,
     "pic": "DUY",
-    "sw": "TBC - TBC",
+    "sw": "2027/W29 - 2027/W29",
     "drawing": "Not Started",
     "veneer": "Not Started",
     "metal": "In Progress",
     "market": "US",
     "total_val": 299970.29,
     "monthly": {
-      "2027/M05": 299970.29
+      "2027/M07": 299970.29
     }
   },
   {
@@ -2070,7 +2070,7 @@
     "market": "UK",
     "total_val": 10410.0,
     "monthly": {
-      "2026/M11": 10410.0
+      "2026/M12": 10410.0
     }
   },
   {
@@ -2088,7 +2088,7 @@
     "market": "UK",
     "total_val": 17615.42,
     "monthly": {
-      "2026/M11": 17615.42
+      "2026/M12": 17615.42
     }
   },
   {
@@ -2172,14 +2172,14 @@
     "stage": "NPI",
     "sku": 1,
     "pic": "THAO",
-    "sw": "2026/W48 - 2026/W48",
+    "sw": "2026/W49 - 2026/W49",
     "drawing": "Approved",
     "veneer": "Approved",
     "metal": "Approved",
     "market": "US",
     "total_val": 3202.0,
     "monthly": {
-      "2026/M11": 3202.0
+      "2026/M12": 3202.0
     }
   },
   {
@@ -2464,14 +2464,14 @@
     "stage": "NPI",
     "sku": 51,
     "pic": "DUY",
-    "sw": "2027/W24 - 2027/W26",
+    "sw": "2027/W29 - 2027/W29",
     "drawing": "In Progress",
     "veneer": "In Progress",
     "metal": "Not Started",
     "market": "US",
     "total_val": 313857.0,
     "monthly": {
-      "2027/M06": 313857.0
+      "2027/M07": 313857.0
     }
   },
   {
@@ -2505,9 +2505,9 @@
     "veneer": "In Progress",
     "metal": "In Progress",
     "market": "US",
-    "total_val": 333776.0,
+    "total_val": 318761.0,
     "monthly": {
-      "2027/M03": 333776.0
+      "2027/M03": 318761.0
     }
   },
   {
@@ -2571,7 +2571,7 @@
     "sku": 16,
     "pic": "DUY",
     "sw": "2026/W05 - 2026/W05",
-    "drawing": "In Progress",
+    "drawing": "Pending Approval",
     "veneer": "Approved",
     "metal": "TBC",
     "market": "US",
@@ -2616,6 +2616,24 @@
       "2027/M07": 1259577.0,
       "2027/M08": 1259577.0,
       "2027/M09": 1259577.0
+    }
+  },
+  {
+    "name": "2026-RH-PENDRY TAMPA RESIDENCES",
+    "status": "FC",
+    "customer": "RH",
+    "type": "RH",
+    "stage": "NPI",
+    "sku": 4,
+    "pic": "DUY",
+    "sw": "2027/W19 - 2027/W19",
+    "drawing": "In Progress",
+    "veneer": "In Progress",
+    "metal": "TBC",
+    "market": "US",
+    "total_val": 32074.42,
+    "monthly": {
+      "2027/M05": 32074.42
     }
   }
 ]
